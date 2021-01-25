@@ -1425,6 +1425,14 @@ static const u8 sLeafageDescription[] = _(
     "The user pelts the foe\n"
     "with leaves.");
 
+static const u8 sXScissorDescription[] = _(
+    "Slashes at the foe\n"
+    "like a pair of scissors.");
+
+static const u8 sBugBuzzDescription[] = _(
+    "Unleashes a grating sound\n"
+    "that can lower SP. DEF.");
+
 // MOVE_NONE is ignored in this table. Make sure to always subtract 1 before getting the right pointer.
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
 {
@@ -1784,4 +1792,6 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_PSYCHO_BOOST - 1] = sPsychoBoostDescription,
     [MOVE_WOOD_HAMMER - 1] = sWoodHammerDescription,
     [MOVE_LEAFAGE - 1] = sLeafageDescription,
+    [MOVE_X_SCISSOR - 1] = sXScissorDescription,
+    [MOVE_BUG_BUZZ - 1] = sBugBuzzDescription,
 };

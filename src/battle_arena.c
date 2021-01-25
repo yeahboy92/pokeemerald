@@ -399,6 +399,8 @@ static const s8 sMindRatings[] =
     [MOVE_PSYCHO_BOOST] = 1,
     [MOVE_WOOD_HAMMER] = 1,
     [MOVE_LEAFAGE] = 1,
+    [MOVE_X_SCISSOR] = 1,
+    [MOVE_BUG_BUZZ] = 1,
 };
 
 #define TAG_JUDGEMENT_ICON 1000

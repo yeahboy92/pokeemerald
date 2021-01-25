@@ -357,4 +357,6 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] =
     [MOVE_PSYCHO_BOOST] = _("PSYCHO BOOST"),
     [MOVE_WOOD_HAMMER] = _("WOOD HAMMER"),
     [MOVE_LEAFAGE] = _("LEAFAGE"),
+    [MOVE_X_SCISSOR] = _("X SCISSOR"),
+    [MOVE_BUG_BUZZ] = _("BUG BUZZ")
 };
