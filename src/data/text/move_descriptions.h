@@ -1421,6 +1421,10 @@ static const u8 sWoodHammerDescription[] = _(
     "Full body hit but the user\n"
     "suffers a heavy recoil.");
 
+static const u8 sWoodHammerDescription[] = _(
+    "The user pelts the foe\n"
+    "with leaves.");
+
 // MOVE_NONE is ignored in this table. Make sure to always subtract 1 before getting the right pointer.
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
 {
@@ -1779,4 +1783,5 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_DOOM_DESIRE - 1] = sDoomDesireDescription,
     [MOVE_PSYCHO_BOOST - 1] = sPsychoBoostDescription,
     [MOVE_WOOD_HAMMER - 1] = sWoodHammerDescription,
+    [MOVE_LEAFAGE - 1] = sLeafageDescription,
 };

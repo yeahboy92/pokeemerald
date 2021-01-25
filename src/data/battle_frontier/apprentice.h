@@ -928,6 +928,7 @@ static const bool8 sValidApprenticeMoves[MOVES_COUNT] =
     [MOVE_DOOM_DESIRE] = TRUE,
     [MOVE_PSYCHO_BOOST] = TRUE,
     [MOVE_WOOD_HAMMER] = TRUE,
+    [MOVE_LEAFAGE] = TRUE,
 };
 
 // The possible questions to ask after the initial 3 WHICH MON questions. Retrieved from here and shuffled
