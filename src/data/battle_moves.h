@@ -4630,7 +4630,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_LEAFAGE] =
     {
-        .effect = EFFECT_HIt,
+        .effect = EFFECT_HIT,
         .power = 40,
         .type = TYPE_GRASS,
         .accuracy = 100,

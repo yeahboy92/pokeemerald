@@ -371,7 +371,7 @@ gBattleAnims_Moves::
 	.4byte Move_DOOM_DESIRE
 	.4byte Move_PSYCHO_BOOST
 	.4byte Move_WOOD_HAMMER
-	.4byte Movv_LEAFAGE
+	.4byte Move_LEAFAGE
 	.4byte Move_COUNT @ cannot be reached, because last move is Wood Hammer
 
 	.align 2

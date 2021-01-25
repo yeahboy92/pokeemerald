@@ -1421,7 +1421,7 @@ static const u8 sWoodHammerDescription[] = _(
     "Full body hit but the user\n"
     "suffers a heavy recoil.");
 
-static const u8 sWoodHammerDescription[] = _(
+static const u8 sLeafageDescription[] = _(
     "The user pelts the foe\n"
     "with leaves.");
 
